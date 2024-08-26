@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Vision Pro - clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="font/SFPRODISPLAYBOLD.OTF">
+</head>
+<body>
+    <div id="main">
+        <div id="page">
+            <video src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/hero/large.mp4" muted></video>
+            <nav>
+                <h3>Vision Pro</h3>
+                <button>Notify Me</button>
+            </nav>
+            <div id="page-bottom">
+                <h3>Introducing</h3>
+            </div>
+        </div>
+        <div id="page1">
+            <h1>Welcome to the era of spatial computing.</h1>
+            <video src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/foundation-spatial-computing/large.mp4" autoplay loop muted></video>
+        </div>
+        <div id="page2">
+            <h1>Apple Vision Pro seamlessly blends <br> digital content with your physical space.</h1>
+            <video src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/foundation-digital-canvas/large.mp4" autoplay loop muted></video>
+        </div>
+        <div id="page3">
+            <h1>You navigate simply by using your <br> eyes, hands, and voice.</h1>
+            <video src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/foundation-inputs/large.mp4" autoplay loop muted></video>
+        </div>
+        <div id="page4">
+            <h1>So you can do the things you love <br> in ways never before possible.</h1>
+            <video src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/foundation-entertainment/large.mp4" autoplay loop muted></video>
+        </div>
+        <div id="page5">
+            <div id="page5-upper">
+                <img src="data:image/png;base64,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" alt="">
+                 <div id="page5-upper-inner">
+                    <h3>Watch the film </h3>
+                    <h3>Watch the event ></h3>
+                 </div>
+            </div>
+            <img src="https://github.com/aadilkhan08/Apple-vision/blob/main/Apple%20vision%20image.png?raw=true" alt="">
+            <button>+ Take a closer look at Vision Pro</button>
+        </div>
+        <div id="page6">
+            <div id="center-page6">
+                <h5>Apps</h5>
+                <h1>Free your desktop. <br> And your apps will follow.</h1>
+            </div>
+            <video src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/experience-apps/large.mp4" autoplay loop muted></video>
+        </div>
+        <div id="page7">
+            <div id="page7-left">
+                <h1>Your apps live in <br> your space.</h1>
+            </div>
+            <div id="page7-right">
+                <p>With Vision Pro, you have an infinite canvas that transforms how you use the apps you love. Arrange apps anywhere and scale them to the perfect size, making the workspace of your dreams a reality — all while staying present in the world around you. Browse the web in Safari, create a to-do list in Notes, chat in Messages, and seamlessly move between them with a glance.</p>
+                <button>+ Learn More About Apps</button>
+            </div>
+        </div>
+        <div id="page8">
+            <div id="center-page8">
+                <h5>Entertainment</h5>
+                <h1>The ultimate theater. <br> Wherever you are.</h1>
+            </div>
+            <video src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/experience-entertainment/large.mp4" autoplay loop muted></video>
+        </div>
+        <div id="page9">
+            <div id="page9-left">
+                <h1>An immersive way to <br> experience <br> entertainment.</h1>
+            </div>
+            <div id="page9-right">
+                <p>Vision Pro can transform any room into your own personal theater. Expand your movies, shows, and games up to the perfect size while feeling like you’re part of the action with Spatial Audio. And with more pixels than a 4K TV for each eye, you can enjoy stunning content wherever you are — whether that’s a long flight or the couch at home.
+                </p>
+                <button>+ Learn more about entertainment</button>
+            </div>
+        </div>
+        <div id="page10">
+            <div id="center-page10">
+                <h5>Photos and Videos</h5>
+                <h1>Be in the moment. <br> All over again.</h1>
+            </div>
+            <video src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/experience-photos-videos/large.mp4" autoplay loop muted></video>
+        </div>
+        <div id="page11">
+            <div id="page11-left">
+                <h1>Your memories <br> come alive.</h1>
+            </div>
+            <div id="page11-right">
+                <p>Vision Pro is Apple’s first 3D camera. You can capture magical spatial photos and spatial videos in 3D, then relive those cherished moments like never before with immersive Spatial Audio. Your existing library of photos and videos looks incredible at remarkable scale. And panoramas wrap around you — making you feel like you’re standing right where you took them.
+                </p>
+                <button>+ Learn more about Photos and Videos</button>
+            </div>
+        </div>
+        <div id="page12">
+            <div id="center-page12">
+                <h5>Connection</h5>
+                <h1>Get on the Same Page. <br> In the Same Space.</h1>
+            </div>
+            <video src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/experience-connection/large.mp4" autoplay loop muted></video>
+        </div>
+        <div id="page13">
+            <div id="page13-left">
+                <h1>Make meetings more <br> meaningful.</h1>
+            </div>
+            <div id="page13-right">
+                <p>Vision Pro makes it easy to collaborate and connect wherever you are. FaceTime video tiles are life-size, and as new people join, the call simply expands in your room. Within FaceTime, you can also use apps to collaborate with colleagues on the same documents simultaneously.
+                </p>
+                <button>+ Learn More About Connection</button>
+            </div>
+        </div>
+        <div id="page14">
+            <h3>Design</h3>
+            <h1>Designed by Apple</h1>
+            <p>Apple Vision Pro is the result of decades of experience designing high‑performance, mobile, and wearable devices — culminating in the most ambitious product Apple has ever created. Vision Pro integrates incredibly advanced technology into an elegant, compact form, resulting in an amazing experience every time you put it on.</p>
+        </div>
+        <div id="page15">
+            <canvas></canvas>
+        </div>
+        <div id="page16">
+            <h1><span>Enclosure.</span> A singular piece of three-dimensionally formed laminated glass flows into an aluminum alloy frame that curves to wrap around your face</h1>
+        </div>
+        <div id="page17">
+            <h1><span>Light Seal.</span> The Light Seal gently flexes to conform to your face, delivering a precise fit while blocking out stray light.</h1>
+        </div>
+        <div id="page18">
+            <h1><span>Head Band.</span> The Head Band provides cushioning, breathability, and stretch. The Fit Dial lets you adjust Vision Pro precisely to your head.</h1>
+        </div>
+        <div id="page19">
+            <h1><span>Power.</span> The external battery supports up to 2 hours of use, and all‑day use when plugged in.</h1>
+        </div>
+        <div id="page20">
+            <h1><span>Sound.</span> Speakers positioned close to your ears deliver rich Spatial Audio while keeping you aware of your surroundings.</h1>
+        </div>
+        <div id="page21">
+            <h1><span>EyeSight.</span> An outward display reveals your eyes while wearing Vision Pro, letting others know when you are using apps or fully immersed.</h1>
+        </div>
+        <div id="page22">
+            <div class="left22"></div>
+            <div class="right22"></div>
+        </div>
+        <div id="page23">
+            <div id="center-page23">
+                <video src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/glass/large.mp4" autoplay loop muted></video>
+            </div>
+        </div>
+        <div id="page24">
+            <h2>A singular piece of <span>three-dimensionally formed laminated glass</span> acts as an optical surface for the cameras and sensors that view the world. It flows seamlessly into a <span>custom aluminum alloy frame</span> that gently curves to wrap around your face while serving as an attachment point for the <span>Light Seal.</span></h2>
+            <img src="https://www.apple.com/v/apple-vision-pro/e/images/overview/design/light_seal__fo87cv0zkcmm_large.jpg" alt="">
+            <button>+ Learn More About Design</button>
+        </div>
+        <div id="page25">
+            <h3>Technology</h3>
+            <h1>Innovation you can <br> see, hear, and feel.</h1>
+            <h2>Pushing boundaries from the <br> inside out.</h2>
+            <p>Spatial experiences on Vision Pro are only possible through groundbreaking Apple technology. Displays the size of a postage stamp that deliver more pixels than a 4K TV to each eye. Incredible advances in Spatial Audio. A revolutionary dual‑chip design featuring custom Apple silicon. A sophisticated array of cameras and sensors. All the elements work together to create an unprecedented experience you have to see to believe.
+            </p>
+        </div>
+        <div id="page26">
+            <canvas></canvas>
+        </div>
+        <div id="page27">
+            <h1>More pixels than a 4K TV. For each eye.</h1>
+            <h4>The <span>custom micro‑OLED display system</span> features 23 million pixels, delivering stunning resolution and colors. And a specially designed three‑element lens creates the feeling of a display that’s everywhere you look.</h4>
+        </div>
+        <div id="page28">
+            <video src="https://www.apple.com/105/media/us/apple-vision-pro/2023/7e268c13-eb22-493d-a860-f0637bacb569/anim/spatial-audio/large.mp4" autoplay loop muted></video>
+            <div id="center-page28">
+                <h1>Our most advanced <br> Spatial Audio system ever.</h1>
+                <p>Dual-driver audio pods positioned next to each ear deliver personalized sound while letting you hear what’s around you. Ambient <span>Spatial Audio</span> makes sounds feel like they’re coming from your surroundings. And with audio raytracing, Vision Pro analyzes your room’s acoustic properties — including the physical materials — to adapt and match sound to your space.</p>
+            </div>
+        </div>
+    </div>  
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
